@@ -1,0 +1,7 @@
+#+TITLE: Magento 2 Coding Kickstart
+
+This repo contains my practice code for the lessons presented in the
+[[https://m.academy/courses/magento-2-coding-kickstart][Magento 2 Coding Kickstart]]
+course.
+
+And is here merely for posterity.
