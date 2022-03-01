@@ -1,0 +1,24 @@
+<?php
+/** @var Magento\Framework\View\Element\Template $block */
+/** @var Macademy\JsFun\ViewModel\Message $messageViewModel */
+$messageViewModel = $block->getData('message');
+?>
+
+<div id="declarative-test-1" data-mage-init='{ "Macademy_JsFun/js/vue-test": { "message": "Declarative msg with data-mage-init" } }'>
+    <h1>{{ message }}</h1>
+</div>
+
+
+<div id="declarative-test-2">
+    <h1>{{ message }}</h1>
+</div>
+
+<script type="text/x-magento-init">
+    {
+        "#declarative-test-2": {
+            "Macademy_JsFun/js/vue-test": {
+                "message": "<?= $messageViewModel->getMessage() ?>"
+            }
+        }
+    }
+</script>

@@ -1,0 +1,16 @@
+<div id="imperative-test">
+    <h1>{{message}}</h1>
+</div>
+
+<script>
+    require(["vue"], function(Vue) {
+        "use strict";
+
+        new Vue({
+            el: "#imperative-test",
+            data: {
+                message: "Hello world"
+            }
+        })
+    })
+</script>
