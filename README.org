@@ -1,5 +1,3 @@
-This repo contains my practice code for the lessons presented in the
-[[https://m.academy]][macademy]]
-course.
+This repo contains my practice code for the lessons presented in the https://m.academy courses.
 
 And is here merely for posterity.
